@@ -11,8 +11,8 @@ class LoadPostData implements FixtureInterface
     public function load(ObjectManager $manager)
     {
         $post = new Post();
-        $post->setTitle('Книга по PHP');
-        $post->setDescription('Учебник по PHP');
+        $post->setTitle('Книга по JS');
+        $post->setDescription('Учебник по JS');
         $post->setDescription('Lorem');
 
         $manager->persist($post);
