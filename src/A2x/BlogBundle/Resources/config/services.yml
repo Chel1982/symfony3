@@ -1,0 +1,4 @@
+services:
+#    a2x_blog.example:
+#        class: A2x\BlogBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
